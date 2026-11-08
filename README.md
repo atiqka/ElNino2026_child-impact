@@ -1,4 +1,4 @@
-# El Niño Potential Impact Map on Children in Southeast Asia (July 2025 – June 2026)
+# El Niño Potential Impact Map on Children in Southeast Asia - ongoing context and analysis
 
 Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
 
