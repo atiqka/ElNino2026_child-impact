@@ -10,7 +10,7 @@ The output map is shown here: https://github.com/atiqka/Elnino2026_child-impact/
 
 ## Overview
 
-This repository  contains an R programming language workflow exercise and script developed by Atiq Kainan Ahmed to model and map the **potential impact of the July 2025 – June 2026 El Niño event on children** across Southeast Asia. 
+This repository  contains an R programming language workflow exercise and script developed by Atiq Kainan Ahmed to model and map the **potential impact of the emerging 2026 El Niño event on children** across Southeast Asia. 
 
 El Niño events typically trigger hotter temperatures and disrupted rainfall patterns (including severe droughts) across the ASEAN region, disproportionately affecting children's health, nutrition, water security, and education. To identify high-risk hotspots, this project integrates **climate hazard anomalies** (drought and heat stress) with **child population exposure** and **national-level child vulnerability** using a spatial Multi-Criteria Evaluation (MCE) framework.
 
