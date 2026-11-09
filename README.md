@@ -54,13 +54,13 @@ b) **Overall Impact Score:**
 
 ---
 
-## Data Sources
+## Data Sources and Acknowledgment
 
 | Dataset | Variable / Indicator | Resolution / Scope | Source |
 | :--- | :--- | :--- | :--- |
 | **ERA5-Land Monthly Means** | `2m_temperature`, `total_precipitation` (2020–2026) | ~9 km (0.1°), Monthly | [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/) |
 | **WorldPop Under-18** | `global_t_Under_18_2026_CN_1km_R2025A_UA_v1.tif` | 1 km, 2026 | [WorldPop](https://www.worldpop.org/) |
-| **UNICEF CCRR** | `Child Vulnerability Score` (`ccrr_2026.xlsx`, Sheet: `Vulnerability`) | National (Country-level) | UNICEF Children's Climate Risk & Resilience (CCRR) |
+| **UNICEF CCRR** | `Child Vulnerability Score` (`ccrr_2026.xlsx`, Sheet: `Vulnerability`) | National (Country-level) | UNICEF Children's Climate Risk & Resilience (CCRR), 2026 (https://www.unicef.org/reports/childrens-climate-risk-report-2026) |
 | **Admin Boundaries** | ASEAN country polygons | Medium scale, EPSG:4326 | [Natural Earth](https://www.naturalearthdata.com/) via `rnaturalearth` |
 
 ---
