@@ -70,7 +70,8 @@ b) **Overall Impact Score:**
 
 Copyright (c) 2025 Atiq Kainan Ahmed.
 
-Codes and files in this repository are licensed under the **MIT License** 
+Codes and files in this repository are licensed under the **MIT License**.  
+
 *Note: Underlying datasets (Copernicus ERA5-Land, WorldPop, UNICEF CCRR, and Natural Earth) are subject to their respective original data licenses and terms of use.*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
