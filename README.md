@@ -29,6 +29,10 @@ The analysis covers 11 Southeast Asian countries: **Brunei, Cambodia, Indonesia,
 ### 2. Climate Hazard Indicators (ERA5-Land)
 Climate anomalies compare the **Evaluation Period (July 2025 – June 2026)** against a **6-year Climatology Baseline (2020 – 2025)** using monthly averaged reanalysis data:
 * **Temperature Anomaly (Heat Stress):**
+\(\Delta T=\={T}_{\text{eval}}-\={T}_{\text{clim}}\)
+Both periods are converted from Kelvin to degrees Celsius (\(^\circ\text{C} = \text{K} - 273.15\)). Positive values indicate warmer-than-average conditions.
+
+* **Temperature Anomaly (Heat Stress):**
   $$\Delta T = \bar{T}_{\text{eval}} - \bar{T}_{\text{clim}}$$
   Both periods are converted from Kelvin to degrees Celsius ($K - 273.15$). Positive values indicate warmer-than-average conditions.
 * **SPI Drought Proxy (Z-Score):**
