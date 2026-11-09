@@ -1,4 +1,4 @@
-# El Niño Potential Impact Map on Children in Southeast Asia - ongoing context and analysis
+# El Niño 2026's Potential Impact Map on Children in Southeast Asia (an ongoing analysis to be continued until the phasing out of the event in 2027)
 
 Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
 
@@ -10,7 +10,7 @@ The output map is shown here: https://github.com/atiqka/Elnino2026_child-impact/
 
 ## Overview
 
-This repository  contains an R programming language workflow exercise and script developed by Atiq Kainan Ahmed to model and map the **potential impact of the emerging 2026 El Niño event on children** across Southeast Asia. 
+This repository  contains an R programming language workflow exercise and script developed by Atiq Kainan Ahmed to model and map the **potential impact of the emerging 2026 El Niño event on children** across Southeast Asia. This is an ongoing analysis to be continued until the phasing out of the El Niño event in 2027.
 
 El Niño events typically trigger hotter temperatures and disrupted rainfall patterns (including severe droughts) across the ASEAN region, disproportionately affecting children's health, nutrition, water security, and education. To identify high-risk hotspots, this project integrates **climate hazard anomalies** (drought and heat stress) with **child population exposure** and **national-level child vulnerability** using a spatial Multi-Criteria Evaluation (MCE) framework.
 
@@ -27,7 +27,7 @@ The analysis covers 11 Southeast Asian countries: **Brunei, Cambodia, Indonesia,
   * **UNICEF Vulnerability** polygons are rasterized onto the template and resampled using **nearest-neighbor** (`near`) interpolation.
 
 ### 2. Climate Hazard Indicators (ERA5-Land)
-Climate anomalies compare the **Evaluation Period (July 2025 – June 2026)** against a **6-year Climatology Baseline (2020 – 2025)** using monthly averaged reanalysis data:
+Climate anomalies compare the Evaluation Period (2026) against a **6-year Climatology Baseline (2020 – 2025)** using monthly averaged reanalysis data:
 * **Temperature Anomaly (Heat Stress):**
   $$\Delta T = \bar{T}_{\text{eval}} - \bar{T}_{\text{clim}}$$
   Both periods are converted from Kelvin to degrees Celsius ($K - 273.15$). Positive values indicate warmer-than-average conditions.
@@ -45,9 +45,9 @@ $$\text{Score} = \left( \frac{x - x_{\min}}{x_{\max} - x_{\min}} \right)^{0.4} \
 ### 4. Multi-Criteria Evaluation (MCE) Weighting
 The final **Potential Child Impact Score** (clamped between `1` and `5`) is calculated as a weighted linear combination:
 
-1. **Hazard Composite (60% of total):**
+a) **Hazard Composite (60% of total):**
    $$\text{Hazard} = (0.50 \times \text{SPI}_{\text{norm}}) + (0.50 \times \text{Heat}_{\text{norm}})$$
-2. **Overall Impact Score:**
+b) **Overall Impact Score:**
    $$\text{Impact} = (0.60 \times \text{Hazard}) + (0.25 \times \text{Pop}_{\text{norm}}) + (0.15 \times \text{Vulnerability}_{\text{norm}})$$
 
 * **Classification Scale:** `1` (Lowest), `2` (Low), `3` (Moderate), `4` (High), `5` (Critical). Unpopulated or zero-population internal cells are preserved as `NA` and shaded neutral grey (`#EBEBEB`) on the output map.
@@ -67,6 +67,6 @@ The final **Potential Child Impact Score** (clamped between `1` and `5`) is calc
 
 ## License
 
-This project's code is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details. 
+Codes and files in this repository are licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details. 
 
 *Note: Underlying datasets (Copernicus ERA5-Land, WorldPop, UNICEF CCRR, and Natural Earth) are subject to their respective original data licenses and terms of use.*
