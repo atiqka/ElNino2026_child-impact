@@ -2,7 +2,7 @@
 
 Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
 
----
+
 
 
 ## Output 
@@ -18,7 +18,7 @@ The analysis covers 11 Southeast Asian countries: **Brunei, Cambodia, Indonesia,
 
 ---
 
-## Detailed Methodology
+## Methodology
 
 ### 1. Study Area & Spatial Harmonization
 * **Boundaries:** Country polygons are loaded from Natural Earth (`rnaturalearth`, medium scale) in `EPSG:4326` (WGS 84) and validated.
