@@ -1,11 +1,8 @@
-###############################################################################
+###################################################################################
 # July 2025 – June 2026 El Niño Potential Impact Map on Children in Southeast Asia
-# ERA5-Land (SPI Drought Proxy + Temp Anomaly) + WorldPop + UNICEF CCRR
-# IMPORTANT:
-# 1. Set your Copernicus CDS API key in the environment variable MYCDSAPI.
-# 2. Ensure the WorldPop TIFF and UNICEF Excel file are in the project folder.
-# 3. Files already downloaded locally will be automatically skipped.
-###############################################################################
+# Data: ERA5-Land (SPI Drought + Temp Anomaly) + WorldPop + UNICEF CCRR. Ver: Rev7.
+# Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
+# #################################################################################
 
 # 0. SETUP --------------------------------------------------------------------
 
@@ -587,4 +584,4 @@ cat("\n=== Script completed successfully ===\n")
 cat("Map successfully saved to:", map_png, "\n")
 
 
-## End of code - Revised 7 #
+# End of script - Revised 7 #
