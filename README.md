@@ -69,7 +69,7 @@ b) **Overall Impact Score:**
 
 ## License
 
-Copyright (c) 2025 Atiq Kainan Ahmed.
+Copyright (c) 2026 Atiq Kainan Ahmed.
 
 Codes and files in this repository are licensed under the **MIT License**.  
 
