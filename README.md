@@ -33,13 +33,9 @@ The analysis covers 11 Southeast Asian countries: **Brunei, Cambodia, Indonesia,
 
 Climate anomalies compare the Evaluation Period (2026) against a **6-year Climatology Baseline (2020 – 2025)** using monthly averaged reanalysis data:
 
-* **Temperature Anomaly (Heat Stress):**
-  $$\Delta T = \bar{T}_{\text{eval}} - \bar{T}_{\text{clim}}$$
-  Both periods are converted from Kelvin to degrees Celsius ($K - 273.15$). Positive values indicate warmer-than-average conditions.
+* **Temperature Anomaly (Heat Stress):** The temperature anomaly is calculated by taking the average temperature of the evaluation period and subtracting the average temperature of the baseline climate period. Both temperature values are converted from Kelvin to degrees Celsius by subtracting 273.15. Positive values indicate conditions that are warmer than the long-term average.
 
-* **SPI Drought Proxy (Z-Score):**
-  $$\text{SPI}_{\text{proxy}} = \frac{\bar{P}_{\text{eval}} - \bar{P}_{\text{clim}}}{\sigma_{\text{clim}} + 10^{-6}}$$
-  Where $\bar{P}_{\text{eval}}$ is mean evaluation precipitation, $\bar{P}_{\text{clim}}$ is mean baseline precipitation, and $\sigma_{\text{clim}}$ is the baseline standard deviation. Negative values indicate drier-than-normal conditions.
+* ** SPI Drought Proxy (Z-Score):** The Standardized Precipitation Index proxy is calculated by taking the mean precipitation of the evaluation period, subtracting the mean precipitation of the baseline climate period, and dividing the result by the baseline standard deviation plus a tiny numerical adjustment factor of one millionth to prevent division by zero. Negative values indicate conditions that are drier than normal.
 
 
 ### 3. Normalization & Power Transformation
