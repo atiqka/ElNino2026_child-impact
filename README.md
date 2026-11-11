@@ -1,4 +1,4 @@
-## El Niño 2026's Potential Impact Map on Children in Southeast Asia (an ongoing analysis to be continued until the phasing out of El Niño event in 2027)
+## El Niño 2026's Potential Impact Map on Children in Southeast Asia (an ongoing analysis to be continued until phasing out of the El Niño event in mid-2027)
 
 Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
 
@@ -9,7 +9,9 @@ Output: The output map is shown here: https://github.com/atiqka/Elnino2026_child
 
 This repository  contains an R programming language workflow exercise and script developed by Atiq Kainan Ahmed to model and map the **potential impact of the emerging 2026 El Niño event on children** across Southeast Asia. This is an ongoing analysis to be continued until the phasing out of the El Niño event in 2027.
 
-El Niño events typically trigger hotter temperatures and disrupted rainfall patterns (including severe droughts) across the ASEAN region, disproportionately affecting children's health, nutrition, water security, and education. To identify high-risk hotspots, this project integrates **climate hazard anomalies** (drought and heat stress) with **child population exposure** and **national-level child vulnerability** using a spatial Multi-Criteria Evaluation (MCE) framework.
+El Niño events typically trigger hotter temperatures and disrupted rainfall patterns (including severe droughts) across the ASEAN region, disproportionately affecting children's health, nutrition, water security, and education. 
+
+To identify high-risk hotspots, this project integrates **climate hazard anomalies** (drought and heat stress) with **child population exposure** and **national-level child vulnerability** using a spatial Multi-Criteria Evaluation (MCE) framework.
 
 The analysis covers 11 Southeast Asian countries: **Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Timor-Leste, and Vietnam** (within the bounding box `92°E – 141°E`, `11.5°S – 28.5°N`), producing both a harmonized GeoTIFF raster and a publication-ready 300 DPI map.
 
@@ -54,12 +56,22 @@ $$\text{Score} = \left( \frac{x - x_{\min}}{x_{\max} - x_{\min}} \right)^{0.4} \
 The final **Potential Child Impact Score** (clamped between 1 and 5) is calculated as a weighted linear combination:
 
 a) **Hazard Composite (60% of total):**
+   
    Hazard= (0.50 x SPI) + (0.50 x Heat)$
 
 b) **Overall Impact Score:**
+   
    Impact = (0.60 x Hazard) + (0.25 x Pop) + (0.15 x Vulnerability)
 
-* **Classification Scale:** 1="Lowest", 2="Low", 3="Moderate", 4="High", and 5="Critical". Unpopulated or zero-population internal cells are preserved as `NA` and shaded neutral grey (`#EBEBEB`) on the output map.
+**Classification Scale:** 
+
+1 = Lowest 
+2 = Low 
+3 = Moderate 
+4 = High 
+5 = Critical.
+
+Unpopulated or zero-population internal cells are preserved as "NA" and shaded neutral grey (`#EBEBEB`) on the output map.
 
 ---
 
