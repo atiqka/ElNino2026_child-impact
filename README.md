@@ -35,7 +35,7 @@ Climate anomalies compare the Evaluation Period (2026) against a **6-year Climat
 
 * **Temperature Anomaly (Heat Stress):** The temperature anomaly is calculated by taking the average temperature of the evaluation period and subtracting the average temperature of the baseline climate period. Both temperature values are converted from Kelvin to degrees Celsius by subtracting 273.15. Positive values indicate conditions that are warmer than the long-term average.
 
-* ** SPI Drought Proxy (Z-Score):** The Standardized Precipitation Index proxy is calculated by taking the mean precipitation of the evaluation period, subtracting the mean precipitation of the baseline climate period, and dividing the result by the baseline standard deviation plus a tiny numerical adjustment factor of one millionth to prevent division by zero. Negative values indicate conditions that are drier than normal.
+* **SPI Drought Proxy (Z-Score):** The Standardized Precipitation Index proxy is calculated by taking the mean precipitation of the evaluation period, subtracting the mean precipitation of the baseline climate period, and dividing the result by the baseline standard deviation plus a tiny numerical adjustment factor of one millionth to prevent division by zero. Negative values indicate conditions that are drier than normal.
 
 
 ### 3. Normalization & Power Transformation
