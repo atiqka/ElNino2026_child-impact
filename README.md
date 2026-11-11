@@ -1,10 +1,9 @@
-**El Niño 2026's Potential Impact Map on Children in Southeast Asia**
-(an ongoing analysis to be continued until the phasing out of the event in 2027)
+# El Niño 2026's Potential Impact Map on Children in Southeast Asia
+## (an ongoing analysis to be continued until the phasing out of the event in 2027)
 
 **Author:** Atiq Kainan Ahmed. Email: atiqka@yahoo.com
 
 **Output:** The output map is shown here: https://github.com/atiqka/Elnino2026_child-impact/blob/main/ElNino_Child_Impact_Map_SEA_2025_26_20261109_045101.png
-
 
 ## Overview
 
