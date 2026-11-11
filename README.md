@@ -1,5 +1,4 @@
-## El Niño 2026's Potential Impact Map on Children in Southeast Asia
-### (an ongoing analysis to be continued until the phasing out of the event in 2027)
+## El Niño 2026's Potential Impact Map on Children in Southeast Asia (an ongoing analysis to be continued until the phasing out of El Niño event in 2027)
 
 Author: Atiq Kainan Ahmed. Email: atiqka@yahoo.com
 
@@ -52,15 +51,15 @@ $$\text{Score} = \left( \frac{x - x_{\min}}{x_{\max} - x_{\min}} \right)^{0.4} \
 
 ### 4. Multi-Criteria Evaluation (MCE) Weighting
 
-The final **Potential Child Impact Score** (clamped between `1` and `5`) is calculated as a weighted linear combination:
+The final **Potential Child Impact Score** (clamped between 1 and 5) is calculated as a weighted linear combination:
 
 a) **Hazard Composite (60% of total):**
-   $$\text{Hazard} = (0.50 \times \text{SPI}_{\text{norm}}) + (0.50 \times \text{Heat}_{\text{norm}})$$
+   Hazard= (0.50 x SPI) + (0.50 x Heat)$
 
 b) **Overall Impact Score:**
-   $$\text{Impact} = (0.60 \times \text{Hazard}) + (0.25 \times \text{Pop}_{\text{norm}}) + (0.15 \times \text{Vulnerability}_{\text{norm}})$$
+   Impact = (0.60 x Hazard) + (0.25 x Pop) + (0.15 x Vulnerability)
 
-* **Classification Scale:** `1` (Lowest), `2` (Low), `3` (Moderate), `4` (High), `5` (Critical). Unpopulated or zero-population internal cells are preserved as `NA` and shaded neutral grey (`#EBEBEB`) on the output map.
+* **Classification Scale:** 1="Lowest", 2="Low", 3="Moderate", 4="High", and 5="Critical". Unpopulated or zero-population internal cells are preserved as `NA` and shaded neutral grey (`#EBEBEB`) on the output map.
 
 ---
 
